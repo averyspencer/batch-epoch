@@ -1,10 +1,13 @@
 # batch-epoch
-Convert unix epoch time to either UTC or local time in pure cmd batch files
+(Note: this package is a port of [shell-epoch](https://github.com/averyspencer/shell-epoch) to Windows and thus is meant to be functionally equivalent)
+
+Convert unix epoch time to UTC in pure cmd batch files
 
 Want to use Unix's bourne shell instead? Take a look at my other repository, [shell-epoch](https://github.com/averyspencer/shell-epoch)
 
 ## TODO
 * Output results in ISO 8601 date/time format
+* Does not have the local times feature yet
 
 # usage examples
     >REM Should be July 14th, 2022 at 2:06:44 PM
